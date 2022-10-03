@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=PT+Serif:ital@1&family=Ultra&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #FFCF2D;
+    font-family: 'PT Serif', serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Ultra', serif;
+}
+
+header{
+    background: #933AF2;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: #FFCF2D;
+    height: 2rem;
+    padding: .5rem 1rem;
+    font-family: 'Ultra', serif;
+}
+
+header h1{
+    text-align: center;
+}
+
+.header__images {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header__images img{
+    margin: 0 auto;
+}
+
+.units{
+    text-align: center;
+}
+
+.unitsContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.unitCard{
+    background: white;
+    transition: 1s;
+    padding: .5rem 1rem;
+}
+
+.unitCard:hover{
+    transform: scale(1.2);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+a.unitCardLink{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    margin-top: 1.5rem;
+    background: black;
+    color: white;
+    padding: 1rem;
+    font-family: 'Ultra', serif;
+}
