@@ -7,5 +7,5 @@ let button = document.getElementById('boton');
 
 function onClick(){
     nombre = document.getElementById('nombre').value;
-    div.innerHTML = nombre;
+    div.innerHTML = `<p><strong>Hola ${nombre},</strong> yo soy PENTIUM 4`;
 }
