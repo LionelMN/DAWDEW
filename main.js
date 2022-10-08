@@ -3,7 +3,7 @@ let workUnitsContainer = document.getElementsByClassName("unitsContainer");
 const unitsJSON = {
     "0" : {
         "title" : "Unidad 1",
-        "description" : "lorem ipsum matracas vaias y más cosas",
+        "description" : "Introducción a Javascript",
         "route" : "./unit1"
     },
     "1" : {
