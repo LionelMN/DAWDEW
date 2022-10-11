@@ -1,0 +1,36 @@
+main{
+    text-align: center;
+}
+
+.exercisesGallery{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-around;
+    gap: 1rem 0;
+}
+
+.exerciseCard {
+    background: white;
+    border-radius: 50px;
+    text-align: center;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.currentExercise{
+    text-align: left;
+    background: white;
+}
+
+fieldset{
+    text-align: left;
+    font-family: 'PT Serif', serif;
+    background: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+legend{
+    font-family: 'Ultra', serif;
+}

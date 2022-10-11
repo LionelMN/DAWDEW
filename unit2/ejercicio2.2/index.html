@@ -4,19 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PDF 2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <form action="javascript:void(0);">
-            <label for="nombre">¿Tu nombre?</label>
-            <input type="text" id="nombre">
-            <button id="boton" onclick="onClick()">Saludar</button>
-        </form>
-        <div class="result"  id="prueba"></div>
+        <div class="ejercicio1">
+            <form action="javascript:void(0);">
+                <fieldset>
+                    <legend>Ejercicio 1</legend>
+                    <label for="nombre">¿Tu nombre?</label>
+                    <input type="text" id="nombre">
+                    <input type="text" id="result" disabled>
+                    <button id="boton1">Saludar</button>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="ejercicio2">
+            <form action="javascript:void(0);">
+                <fieldset>
+                    <legend>Ejercicio 2</legend>
+                    <label for="number">Introduzca un número comprendido entre 1 y 100</label>
+                    <input type="number" name="number" id="number" value="0" min="0" max="100">
+                    <button id="boton2">Adivine el número</button>
+                </fieldset>
+            </form>
+            <div class="modal modalClose" id="modal">
+                <div class="modal-dialog">
+                    <header class="modal-header">
+                        <button class="close-modal" aria-label="close modal" data-close>✕</button>
+                    </header>
+                    <section class="modal-content">
+                        <div id="hint">
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
     </div>
-
-
 
     <script src="main.js"></script>
 </body>
