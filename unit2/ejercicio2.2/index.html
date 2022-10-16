@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PDF 2</title>
+    <title>Ejercicios 2.2</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../unit2.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="ejercicio1">
+    <main class="container">
+        <h1>Ejercicios del primer pdf</h1>
+        <h2>Para ejecutar los ejercicios haz click en los recuadros</h2>
+        <div class="ejercicio ejercicio1">
             <form action="javascript:void(0);">
                 <fieldset>
                     <legend>Ejercicio 1</legend>
@@ -21,7 +25,7 @@
             </form>
         </div>
 
-        <div class="ejercicio2">
+        <div class="ejercicio ejercicio2">
             <form action="javascript:void(0);">
                 <fieldset>
                     <legend>Ejercicio 2</legend>
@@ -33,18 +37,60 @@
             <div class="modal modalClose" id="modal">
                 <div class="modal-dialog">
                     <header class="modal-header">
+                        <p>Mensaje del ejercicio 2</p>
                         <button class="close-modal" aria-label="close modal" data-close>✕</button>
                     </header>
                     <section class="modal-content">
-                        <div id="hint">
-
-                        </div>
+                        <div id="hint"></div>
                     </section>
                 </div>
             </div>
         </div>
-    </div>
 
+        <div class="ejercicio ejercicio3">
+            <fieldset>
+                <legend>Ejercicio 3</legend>
+                <button id="boton3">Generar números</button>
+                <div id="ejercicio3Result"></div>
+            </fieldset>
+        </div>
+
+        <div class="ejercicio ejercicio4">
+            <fieldset>
+                <legend>Ejercicio 4</legend>
+                <button id="boton4">Púlsame 😉</button>
+            </fieldset>
+
+            <div class="modal modalClose" id="modal4">
+                <div class="modal-dialog">
+                    <header class="modal-header">
+                        <p>Mensaje del ejercicio 4</p>
+                        <button class="close-modal close-modal4" aria-label="close modal" data-close>✕</button>
+                    </header>
+                    <section class="modal-content">
+                        <p>Pulsa confirmar para seguir en la página, cancelar te llevará a la página principal</p>
+                        <button id="confirm">Confirmar</button>
+                        <button id="cancel">Cancelar</button>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <div class="ejercicio ejercicio5">
+            <form action="javascript:void(0);">
+                <fieldset>
+                    <legend>Ejercicio 5</legend>
+                    <label for="number">Introduzca un número comprendido entre 1 y 100</label>
+                    <input type="text" name="number" id="ejer5Input" value="0" min="0" max="100">
+                    <button id="boton5">Adivine el número</button>
+                </fieldset>
+            </form>
+        </div>
+        <a href="../">Volver</a>
+    </main>
+    <footer>
+        Página solo con propósitos académicos. @LionelMN
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>

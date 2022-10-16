@@ -11,11 +11,6 @@ const unitsJSON = {
         "description" : "Elementos básicos y estructuras de control",
         "route" : "./unit2"
     },
-    "2" : {
-        "title" : "Unidad 3",
-        "description" : "lorem ipsum matracas vaias y más cosas",
-        "route" : "./unit3"
-    },
 }
 
 for(let i in unitsJSON){
