@@ -1,0 +1,61 @@
+:root {
+    --lightgray: #efefef;
+    --blue: steelblue;
+    --white: #fff;
+    --black: rgba(0, 0, 0, 0.8);
+    --bounceEasing: cubic-bezier(0.51, 0.92, 0.24, 1.15);
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ejercicio{
+    margin: 1rem 0;
+}
+
+fieldset{
+    padding: 1rem;
+}
+
+.modal{
+    border: 1px solid black;
+    width: 50%;
+    margin: 1rem auto;
+}
+.modal header{
+    background: blue;
+    padding: .2rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 30px;
+}
+
+.modal-content{
+    padding: .5rem .2rem;
+    background: white;
+}
+
+.modalClose{
+    display: none;
+}
+
+button.close-modal {
+    cursor: pointer;
+    background: red;
+    border: 1px solid white;
+    outline: none;
+    font-size: inherit;
+    color: white;
+    padding: .1rem .2rem;
+    position: static;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}

@@ -2,14 +2,14 @@ let workUnitsContainer = document.getElementsByClassName("unitsContainer");
 
 const unitsJSON = {
     "0" : {
-        "title" : "Unidad 1",
-        "description" : "Introducción a Javascript",
-        "route" : "./unit1"
+        "title" : "PDF 1",
+        "description" : "Prompt y estructuras de control",
+        "route" : "./ejercicio2.1"
     },
     "1" : {
-        "title" : "Unidad 2",
-        "description" : "Elementos básicos y estructuras de control",
-        "route" : "./unit2"
+        "title" : "PDF 2",
+        "description" : "Trabajando con el árbol DOM",
+        "route" : "./ejercicio2.2"
     },
 }
 
